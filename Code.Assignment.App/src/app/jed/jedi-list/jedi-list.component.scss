@@ -1,0 +1,29 @@
+.actions {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0.5em;
+
+    mat-progress-spinner {
+        margin-left: 0.5em;
+    }
+}
+
+.jedi-container {
+    margin: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+
+    
+    .example-card {
+        margin: 0.5em;
+        width: 20vw;
+
+        .example-header-image {
+            background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+            background-size: cover;
+          }
+    }
+}
